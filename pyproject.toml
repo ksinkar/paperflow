@@ -22,6 +22,17 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Topic :: Text Processing :: Markup",
 ]
+dependencies = [
+    "fastapi==0.115.0",
+    "httpx==0.27.0",
+    "pymupdf==1.27.2",
+    "pymupdf4llm==1.27.2.1",
+    "pypdf==5.1.0",
+    "python-dotenv==1.0.1",
+    "python-multipart==0.0.9",
+    "resend==2.23.0",
+    "uvicorn[standard]==0.30.0",
+]
 
 [project.urls]
 Homepage = "https://paperflowing.com"

@@ -62,7 +62,7 @@ pip install paperflow-postprocess
 git clone https://github.com/TylerMorrison21/paperflow
 cd paperflow
 cp .env.example .env
-pip install -r requirements.txt
+uv sync
 uvicorn api.main:app --port 8000
 ```
 
