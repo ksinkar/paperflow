@@ -39,6 +39,12 @@ Homepage = "https://paperflowing.com"
 Repository = "https://github.com/TylerMorrison21/paperflow"
 Issues = "https://github.com/TylerMorrison21/paperflow/issues"
 
+[project.optional-dependencies]
+ocr = [
+    "paddleocr[all]>=3.7.0",
+    "paddlepaddle>=3.3.1",
+]
+
 [tool.setuptools]
 include-package-data = false
 
